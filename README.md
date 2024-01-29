@@ -8,7 +8,13 @@
 [![R-CMD-check](https://github.com/tadascience/tada/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/tadascience/tada/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
-The goal of tada is to …
+      🎉🎉                                  🎉🎉
+      🎉🎉                                  🎉🎉
+    🎉🎉🎉🎉🎉🎉     🎉🎉🎉🎉🎉       🎉🎉🎉🎉🎉     🎉🎉🎉🎉🎉
+      🎉🎉                  🎉🎉    🎉🎉   🎉🎉             🎉🎉
+      🎉🎉          🎉🎉🎉🎉🎉🎉   🎉🎉     🎉🎉   🎉🎉🎉🎉🎉🎉🎉
+      🎉🎉  🎉      🎉🎉     🎉🎉  🎉🎉     🎉🎉   🎉🎉      🎉🎉
+       🎉🎉🎉🎉      🎉🎉🎉🎉🎉     🎉🎉🎉🎉🎉🎉    🎉🎉🎉🎉🎉🎉
 
 ## Installation
 
@@ -22,9 +28,5 @@ pak::pak("tadascience/tada)
 ## Example
 
 Run a roulette of available packages on CRAN:
-
-``` r
-tada::pkg_roulette(n = 100, time = 4)
-```
 
 ![](https://github.com/tadascience/tada/blob/main/inst/roulette.gif?raw=true)
