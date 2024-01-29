@@ -14,3 +14,5 @@ Imports:
     grDevices,
     purrr,
     utils
+URL: https://github.com/tadascience/tada
+BugReports: https://github.com/tadascience/tada/issues
