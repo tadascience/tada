@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://tada.science/tada/404.html</loc>
+    <loc>https://tada.tada.science/404.html</loc>
   </url>
   <url>
-    <loc>http://tada.science/tada/LICENSE-text.html</loc>
+    <loc>https://tada.tada.science/LICENSE-text.html</loc>
   </url>
   <url>
-    <loc>http://tada.science/tada/LICENSE.html</loc>
+    <loc>https://tada.tada.science/LICENSE.html</loc>
   </url>
   <url>
-    <loc>http://tada.science/tada/authors.html</loc>
+    <loc>https://tada.tada.science/authors.html</loc>
   </url>
   <url>
-    <loc>http://tada.science/tada/index.html</loc>
+    <loc>https://tada.tada.science/index.html</loc>
   </url>
   <url>
-    <loc>http://tada.science/tada/reference/index.html</loc>
+    <loc>https://tada.tada.science/reference/index.html</loc>
   </url>
   <url>
-    <loc>http://tada.science/tada/reference/pkg_roulette.html</loc>
+    <loc>https://tada.tada.science/reference/pkg_roulette.html</loc>
   </url>
 </urlset>
