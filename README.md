@@ -27,4 +27,4 @@ Run a roulette of available packages on CRAN:
 tada::pkg_roulette(n = 100, time = 4)
 ```
 
-![](inst/roulette.gif)
+![](https://github.com/tadascience/tada/blob/main/inst/roulette.gif?raw=true)
