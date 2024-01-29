@@ -2,7 +2,7 @@ Package: tada
 Title: Supporting tools for tada science
 Version: 2024.1.0
 Authors@R: 
-    person("Romain", "François", email = "romain@tada.science", role = c("aut", "cre"),
+    person("Romain", "François", email = "romain@tada.science", role = c("aut", "cre", "cph"),
            comment = c(ORCID = "0000-0002-2444-4226"))
 Description: Supporting tools for tada science.
 License: MIT + file LICENSE
