@@ -26,3 +26,5 @@ Run a roulette of available packages on CRAN:
 ``` r
 tada::pkg_roulette(n = 100, time = 4)
 ```
+
+![](inst/roulette.gif)
