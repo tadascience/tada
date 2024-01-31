@@ -2,14 +2,21 @@
 % Please edit documentation in R/roulette.R
 \name{pkg_roulette}
 \alias{pkg_roulette}
-\title{CRAN package name roulette}
+\title{package roulette}
 \usage{
-pkg_roulette(time = 4, n = 100, cols = sample(colors(), n, replace = TRUE))
+pkg_roulette(
+  time = 4,
+  n = 100,
+  pkgs,
+  cols = sample(colors(), n, replace = TRUE)
+)
 }
 \arguments{
 \item{time}{How long in seconds the roulette runs. It will increasingly speed up.}
 
-\item{n}{number of packages in the roulette, packages are selected with \code{\link[=available.packages]{available.packages()}}}
+\item{n}{number of packages in the roulette, packages are selected with \code{\link[utils:available.packages]{utils::available.packages()}}. Ignored if \verb{pkgs=} is given.}
+
+\item{pkgs}{Packages to show in the roulette.}
 
 \item{cols}{colors. The default is to pick \code{n} colors
 from the built-in \code{\link[grDevices:colors]{grDevices::colors()}}.}
@@ -18,11 +25,17 @@ from the built-in \code{\link[grDevices:colors]{grDevices::colors()}}.}
 the last package, invisibly
 }
 \description{
-Runs a roulette of available packages on CRAN
+Runs a packages roulette
 }
 \examples{
+pkg_roulette(
+  time = 2,
+  pkgs = sample(c("dplyr", "ggplot2", "data.table", "Rcpp", "arrow", "duckdb"))
+)
+
 \dontrun{
-  pkg_roulette(time = 3, n = 100)
+ # roulette of 100 available CRAN packages
+ pkg_roulette(time = 4, n = 100)
 }
 
 }
