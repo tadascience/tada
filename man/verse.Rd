@@ -15,7 +15,7 @@ Write poems about R packages
 \examples{
 \dontrun{
   chattr::chattr_use("gpt35")
-  tada::verse("knitr")
+  tada::verse("ggplot2")
 }
 
 }
