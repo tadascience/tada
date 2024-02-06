@@ -1,6 +1,6 @@
 Package: tada
 Title: Supporting Tools for Tada Science
-Version: 2024.1.0
+Version: 2024.1.0.9000
 Authors@R: 
     person("Romain", "François", email = "romain@tada.science", role = c("aut", "cre", "cph"))
 Description: Suite of tools to support the practice of tada science. It includes an
